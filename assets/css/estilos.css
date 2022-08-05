@@ -1,0 +1,89 @@
+.display-1 {
+    font-size: 60px;
+    color: #404040;
+    border-bottom-style: groove;
+    margin: 0px 20px 20px 20px;
+    padding: 10px;
+}
+
+header {
+    background-image: linear-gradient(#d8d8d8, aliceblue);
+    border-bottom-style: groove;
+}
+
+aside {
+    height: auto;
+    background-image: linear-gradient( to right, #d8d8d8, white);
+    border-radius: 15px;
+
+}
+
+aside img {
+    box-shadow: -6px 8px 9px 1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -6px 8px 9px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: -6px 8px 9px 1px rgba(0,0,0,0.75);
+}
+
+header img{
+    border-radius: 15px;
+    background-color: rgb(245, 248, 250);
+    box-shadow: -6px 8px 9px 1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -6px 8px 9px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: -6px 8px 9px 1px rgba(0,0,0,0.75);
+}
+
+article img {
+    padding: 15px;
+    border-radius: 20px;
+}
+
+h3 {
+    margin: 20px 30px;
+    color: #404040;
+}
+
+p {
+    padding: 10px
+}   
+
+footer{
+    /*background-color: #d8d8d8; */
+    background-image: linear-gradient(aliceblue, #d8d8d8);
+    border-top-style: groove;
+    margin-top: 20px;
+}
+
+footer img {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    margin: 15px;
+}
+
+footer div {
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn-orange {
+    background-color: #cc8400;
+    color: white;
+}
+.btn-orange:hover {
+    background-color: #996300;
+    color: white;
+}
+
+@media only screen and (min-width: 992px) {
+    footer img {
+        width: 25px;
+        height: 25px;
+        border-radius: 5px;
+        margin: 15px;
+    }
+    footer .link-logo a {
+      margin-bottom: -20px;
+      margin-right: 40px;
+      border-left: groove #404040 1.5px;
+    }
+}
